@@ -294,3 +294,4 @@ Story page update at 2025-09-30 18:25:24 : Add transition effects to story hero 
 Story page update at 2025-09-30 18:00:45 : Style science and nature highlight cards
 Story page update at 2025-09-30 19:03:03 : Fix responsive padding on story narrative
 Early planning at 2025-04-01 14:04:45 : Planning hero section focal points
+Early planning at 2025-04-01 15:54:17 : Planning hero section focal points
