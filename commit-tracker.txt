@@ -335,3 +335,4 @@ Early planning at 2025-04-13 14:29:01 : Initial wireframing of product grid layo
 Early planning at 2025-04-13 15:05:16 : Initial wireframing of product grid layout
 Early planning at 2025-04-13 15:58:13 : Initial wireframing of product grid layout
 Early planning at 2025-04-13 15:04:50 : Curating high-end typography (Outfit font)
+Early planning at 2025-04-14 15:52:39 : Drafting site architecture and navigation flow
