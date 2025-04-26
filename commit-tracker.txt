@@ -376,3 +376,4 @@ Early planning at 2025-04-25 13:25:52 : Curating high-end typography (Outfit fon
 Early planning at 2025-04-25 14:16:51 : Conceptualizing Aura Skin brand identity
 Early planning at 2025-04-26 14:12:52 : Conceptualizing Aura Skin brand identity
 Early planning at 2025-04-26 15:37:39 : Setting up project documentation and asset directories
+Early planning at 2025-04-26 14:57:58 : Creating CSS primitive variables for design system
