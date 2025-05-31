@@ -486,3 +486,4 @@ Early planning at 2025-05-30 15:31:37 : Setting up project documentation and ass
 Early planning at 2025-05-31 13:02:09 : Creating CSS primitive variables for design system
 Early planning at 2025-05-31 15:35:33 : Conceptualizing Aura Skin brand identity
 Early planning at 2025-05-31 14:10:17 : Defining brand core values: Vegan and Clean Beauty
+Early planning at 2025-05-31 14:16:37 : Curating high-end typography (Outfit font)
