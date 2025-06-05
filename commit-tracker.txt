@@ -499,3 +499,4 @@ Aesthetic polish at 2025-06-03 14:15:46 : Customizing scrollbar to match brand a
 Aesthetic polish at 2025-06-03 14:09:54 : Tweaking color variables for more vibrant lavender tones
 Aesthetic polish at 2025-06-04 15:29:40 : Refining shadow tokens for softer UI feeling
 Aesthetic polish at 2025-06-04 13:16:52 : Adding micro-interactions for heart icon toggle
+Aesthetic polish at 2025-06-05 14:07:15 : Adding smooth parallax transitions to product cards
