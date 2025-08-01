@@ -145,3 +145,4 @@ Commit at 2025-11-30 18:00:43 : Implement sticky header with backdrop blur
 Commit at 2025-11-30 18:58:45 : Setup brand color palette and variables
 Commit at 2025-11-30 18:25:50 : Refine typography for a feminine aesthetic
 Story page update at 2025-08-01 17:42:54 : Add 'Why Aura Skin' segment to story page
+Story page update at 2025-08-01 18:06:04 : Implement accessibility improvements for testimonials
