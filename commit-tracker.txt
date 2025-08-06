@@ -158,3 +158,4 @@ Story page update at 2025-08-04 19:04:16 : Add social proof with user avatars
 Story page update at 2025-08-05 17:38:43 : Refine narrative copy on story page
 Story page update at 2025-08-05 17:47:23 : Implement 'Our Story' page structure
 Story page update at 2025-08-06 18:54:53 : Implement accessibility improvements for testimonials
+Story page update at 2025-08-06 18:35:58 : Add transition effects to story hero section
