@@ -177,3 +177,4 @@ Story page update at 2025-08-11 19:18:04 : Add social proof with user avatars
 Story page update at 2025-08-13 18:52:43 : Fix responsive padding on story narrative
 Story page update at 2025-08-13 19:14:00 : Update footer with consistent branding
 Story page update at 2025-08-13 18:56:20 : Add 'Why Aura Skin' segment to story page
+Story page update at 2025-08-14 19:13:24 : Add custom icons for ethical manufacturing
