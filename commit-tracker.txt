@@ -188,3 +188,4 @@ Story page update at 2025-08-16 17:48:16 : Add social proof with user avatars
 Story page update at 2025-08-17 18:12:46 : Design customer testimonials section
 Story page update at 2025-08-17 17:50:35 : Update global navigation links
 Story page update at 2025-08-17 19:20:53 : Refine story hero image responsiveness
+Story page update at 2025-08-18 18:50:26 : Implement smooth scroll for story page
