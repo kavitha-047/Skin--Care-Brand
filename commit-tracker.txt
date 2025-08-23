@@ -199,3 +199,4 @@ Story page update at 2025-08-21 19:15:18 : Fix responsive padding on story narra
 Story page update at 2025-08-21 18:32:39 : Implement accessibility improvements for testimonials
 Story page update at 2025-08-22 17:35:24 : Optimize story page for tablet devices
 Story page update at 2025-08-22 18:50:26 : Implement 'Our Story' page structure
+Story page update at 2025-08-23 17:58:36 : Add 'Why Aura Skin' segment to story page
