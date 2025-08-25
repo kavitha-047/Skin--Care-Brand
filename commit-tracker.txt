@@ -206,3 +206,4 @@ Story page update at 2025-08-24 17:45:29 : Style science and nature highlight ca
 Story page update at 2025-08-24 18:08:00 : Refine story hero image responsiveness
 Story page update at 2025-08-25 17:48:58 : Implement smooth scroll for story page
 Story page update at 2025-08-25 17:59:21 : Style science and nature highlight cards
+Story page update at 2025-08-25 17:38:15 : Add 'Why Aura Skin' segment to story page
