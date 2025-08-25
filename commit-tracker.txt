@@ -204,3 +204,4 @@ Story page update at 2025-08-23 18:57:19 : Implement smooth scroll for story pag
 Story page update at 2025-08-23 17:47:02 : Fix responsive padding on story narrative
 Story page update at 2025-08-24 17:45:29 : Style science and nature highlight cards
 Story page update at 2025-08-24 18:08:00 : Refine story hero image responsiveness
+Story page update at 2025-08-25 17:48:58 : Implement smooth scroll for story page
