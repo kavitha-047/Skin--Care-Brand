@@ -208,3 +208,4 @@ Story page update at 2025-08-25 17:48:58 : Implement smooth scroll for story pag
 Story page update at 2025-08-25 17:59:21 : Style science and nature highlight cards
 Story page update at 2025-08-25 17:38:15 : Add 'Why Aura Skin' segment to story page
 Story page update at 2025-08-26 18:10:16 : Update footer with consistent branding
+Story page update at 2025-08-26 17:34:50 : Style science and nature highlight cards
