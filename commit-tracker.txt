@@ -211,3 +211,4 @@ Story page update at 2025-08-26 18:10:16 : Update footer with consistent brandin
 Story page update at 2025-08-26 17:34:50 : Style science and nature highlight cards
 Story page update at 2025-08-27 18:02:55 : Design customer testimonials section
 Story page update at 2025-08-27 17:55:52 : Add custom icons for ethical manufacturing
+Story page update at 2025-08-28 18:37:05 : Fix responsive padding on story narrative
