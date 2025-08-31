@@ -217,3 +217,4 @@ Story page update at 2025-08-29 19:12:57 : Add transition effects to story hero 
 Story page update at 2025-08-29 17:56:49 : Design customer testimonials section
 Story page update at 2025-08-30 18:14:36 : Add custom icons for ethical manufacturing
 Story page update at 2025-08-30 18:34:40 : Implement smooth scroll for story page
+Story page update at 2025-08-31 19:22:23 : Implement accessibility improvements for testimonials
