@@ -224,3 +224,4 @@ Story page update at 2025-09-01 19:06:03 : Add transition effects to story hero 
 Story page update at 2025-09-02 18:04:34 : Add social proof with user avatars
 Story page update at 2025-09-02 19:02:23 : Implement smooth scroll for story page
 Story page update at 2025-09-02 17:58:21 : Implement accessibility improvements for testimonials
+Story page update at 2025-09-03 18:26:26 : Update global navigation links
