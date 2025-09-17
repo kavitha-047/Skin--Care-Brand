@@ -257,3 +257,4 @@ Story page update at 2025-09-15 19:11:59 : Optimize story page for tablet device
 Story page update at 2025-09-15 19:04:29 : Design customer testimonials section
 Story page update at 2025-09-16 18:27:58 : Add transition effects to story hero section
 Story page update at 2025-09-16 18:06:31 : Implement accessibility improvements for testimonials
+Story page update at 2025-09-17 19:26:07 : Style science and nature highlight cards
