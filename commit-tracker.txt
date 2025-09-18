@@ -261,3 +261,4 @@ Story page update at 2025-09-17 19:26:07 : Style science and nature highlight ca
 Story page update at 2025-09-17 18:10:45 : Design customer testimonials section
 Story page update at 2025-09-17 18:26:25 : Implement smooth scroll for story page
 Story page update at 2025-09-18 19:29:30 : Add social proof with user avatars
+Story page update at 2025-09-18 17:38:21 : Add 'Why Aura Skin' segment to story page
