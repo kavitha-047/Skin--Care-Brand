@@ -287,3 +287,4 @@ Story page update at 2025-09-27 18:15:16 : Add 'Why Aura Skin' segment to story 
 Story page update at 2025-09-27 18:24:31 : Update global navigation links
 Story page update at 2025-09-27 17:36:06 : Fix responsive padding on story narrative
 Story page update at 2025-09-28 18:45:52 : Refine story hero image responsiveness
+Story page update at 2025-09-28 17:53:35 : Add custom icons for ethical manufacturing
