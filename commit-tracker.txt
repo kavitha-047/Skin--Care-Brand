@@ -290,3 +290,4 @@ Story page update at 2025-09-28 18:45:52 : Refine story hero image responsivenes
 Story page update at 2025-09-28 17:53:35 : Add custom icons for ethical manufacturing
 Story page update at 2025-09-29 17:32:36 : Refine narrative copy on story page
 Story page update at 2025-09-29 18:49:36 : Add transition effects to story hero section
+Story page update at 2025-09-30 18:25:24 : Add transition effects to story hero section
