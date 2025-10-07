@@ -14,3 +14,4 @@ Commit at 2025-10-05 18:19:22 : Add ingredient callout animations
 Commit at 2025-10-06 18:09:39 : Add ingredient callout animations
 Commit at 2025-10-06 18:09:10 : Design collection circles editorial layout
 Commit at 2025-10-07 17:31:34 : Style soft pastel gradients for banners
+Commit at 2025-10-07 18:54:36 : Setup brand color palette and variables
