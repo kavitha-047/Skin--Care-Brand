@@ -38,3 +38,4 @@ Commit at 2025-10-16 17:35:34 : Implement benefits strip with custom icons
 Commit at 2025-10-16 18:48:42 : Style soft pastel gradients for banners
 Commit at 2025-10-17 19:00:58 : Implement sticky header with backdrop blur
 Commit at 2025-10-17 18:34:12 : Configure brand font imports
+Commit at 2025-10-18 17:33:37 : Add campaign visuals to landing page
