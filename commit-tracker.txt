@@ -65,3 +65,4 @@ Commit at 2025-10-27 19:10:07 : Add ingredient callout animations
 Commit at 2025-10-28 18:52:16 : Add ingredient callout animations
 Commit at 2025-10-28 19:07:08 : Refine spacing and padding for luxury feel
 Commit at 2025-10-29 17:30:39 : Fix layout issue on tablets
+Commit at 2025-10-29 18:50:01 : Optimize image loading for performance
