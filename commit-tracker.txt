@@ -89,3 +89,4 @@ Commit at 2025-11-06 19:19:39 : Refine typography for a feminine aesthetic
 Commit at 2025-11-07 17:37:51 : Refine spacing and padding for luxury feel
 Commit at 2025-11-07 18:20:57 : Implement sticky header with backdrop blur
 Commit at 2025-11-08 17:36:25 : Design premium announcement bar
+Commit at 2025-11-08 18:18:29 : Setup brand color palette and variables
