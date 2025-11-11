@@ -93,3 +93,4 @@ Commit at 2025-11-08 18:18:29 : Setup brand color palette and variables
 Commit at 2025-11-09 17:58:25 : Style soft pastel gradients for banners
 Commit at 2025-11-09 17:45:20 : Add hover effects to category cards
 Commit at 2025-11-09 18:04:02 : Add ingredient callout animations
+Commit at 2025-11-11 17:43:37 : Integrate smooth scroll reveal animations
