@@ -122,3 +122,4 @@ Commit at 2025-11-20 17:41:03 : Add ingredient callout animations
 Commit at 2025-11-21 19:18:04 : Implement vertical stacking for mobile banners
 Commit at 2025-11-21 18:10:14 : Refine typography for a feminine aesthetic
 Commit at 2025-11-22 18:43:52 : Refine spacing and padding for luxury feel
+Commit at 2025-11-22 17:47:24 : Configure brand font imports
