@@ -126,3 +126,4 @@ Commit at 2025-11-22 17:47:24 : Configure brand font imports
 Commit at 2025-11-22 18:37:22 : Add subtle button micro-animations
 Commit at 2025-11-23 19:09:37 : Configure brand font imports
 Commit at 2025-11-23 18:49:46 : Design collection circles editorial layout
+Commit at 2025-11-23 18:04:50 : Optimize hero section for mobile devices
