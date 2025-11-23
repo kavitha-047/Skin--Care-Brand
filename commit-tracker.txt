@@ -124,3 +124,4 @@ Commit at 2025-11-21 18:10:14 : Refine typography for a feminine aesthetic
 Commit at 2025-11-22 18:43:52 : Refine spacing and padding for luxury feel
 Commit at 2025-11-22 17:47:24 : Configure brand font imports
 Commit at 2025-11-22 18:37:22 : Add subtle button micro-animations
+Commit at 2025-11-23 19:09:37 : Configure brand font imports
