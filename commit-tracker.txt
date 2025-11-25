@@ -131,3 +131,4 @@ Commit at 2025-11-24 19:09:42 : Fix layout issue on tablets
 Commit at 2025-11-24 19:09:45 : Add ingredient callout animations
 Commit at 2025-11-25 17:43:19 : Design collection circles editorial layout
 Commit at 2025-11-25 18:51:54 : Integrate smooth scroll reveal animations
+Commit at 2025-11-25 18:43:03 : Fix layout issue on tablets
