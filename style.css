@@ -11,7 +11,8 @@
     --soft-shadow: 0 20px 40px rgba(157, 132, 209, 0.08);
     --premium-shadow: 0 30px 60px rgba(0, 0, 0, 0.03);
     --border-radius: 32px;
-    --transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    --transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    --transition-slow: all 1s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 /* Grain Texture Overlay */
@@ -270,8 +271,20 @@ nav a:hover::after {
 .product-card:hover {
     background: var(--pure-white);
     box-shadow: var(--premium-shadow);
-    transform: scale(1.02);
+    transform: translateY(-5px);
     border-color: var(--primary-lavender);
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    transition: var(--transition);
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.08) rotate(2deg);
 }
 
 .cta-button {
@@ -306,13 +319,75 @@ nav a:hover::after {
 /* Animations Scroll Reveals */
 .reveal {
     opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 1s ease, transform 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.reveal.active {
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.reveal-right {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.reveal-scale {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.reveal.active,
+.reveal-left.active,
+.reveal-right.active,
+.reveal-scale.active {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(0, 0) scale(1);
+}
+
+/* Stagger for grid items added via JS */
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.hero-content h1,
+.hero-content p,
+.hero-content .cta-button {
+    opacity: 0;
+    animation: slideUp 1s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.hero-content h1 { animation-delay: 0.2s; }
+.hero-content p { animation-delay: 0.4s; }
+.hero-content .cta-button { animation-delay: 0.6s; }
+
+.hero-image {
+    opacity: 0;
+    animation: fadeInScale 1.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+    animation-delay: 0.3s;
 }
 
 @keyframes float-gentle {
