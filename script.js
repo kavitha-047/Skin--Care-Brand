@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, revealOptions);
 
-    const revealElements = document.querySelectorAll('.product-card, .category-card, .collection-circle, .campaign-card, .section-title, .benefit-item, .offer-banner, .mid-promo');
+    const revealElements = document.querySelectorAll('.product-card, .category-card, .collection-circle, .campaign-card, .section-title, .benefit-item, .offer-banner, .mid-promo, .testimonial-card');
     revealElements.forEach(el => {
         // Assign specific reveal types based on class or section
         if (el.classList.contains('section-title') || el.classList.contains('mid-promo')) {
