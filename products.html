@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products | Aura Skin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .filter-bar {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--soft-beige);
+            margin-bottom: 40px;
+        }
+        .filter-options {
+            display: flex;
+            gap: 20px;
+        }
+        .filter-btn {
+            background: white;
+            border: 1px solid var(--primary-lavender);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--accent-lavender);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="announcement-bar">
+        🌱 VEGAN • 🐰 CRUELTY-FREE • 🩺 DERMATOLOGIST TESTED • ✨ SAFE FOR SENSITIVE SKIN
+    </div>
+
+    <header>
+        <div class="logo">AURA SKIN</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-bag-shopping"></i></span>
+            <span><i class="fa-regular fa-user"></i></span>
+        </div>
+    </header>
+
+    <section class="product-grid-section">
+        <h2 class="section-title">All <span>Products</span></h2>
+        
+        <div class="filter-bar">
+            <div class="filter-options">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Serums</button>
+                <button class="filter-btn">Cleansers</button>
+                <button class="filter-btn">Moisturizers</button>
+            </div>
+            <div class="sort-options">
+                <select style="padding: 8px; border-radius: 10px; border: 1px solid var(--primary-lavender);">
+                    <option>Sort by: Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                <img src="assets/vit_c.png" alt="Vitamin C Serum" class="product-image">
+                <h4>Radiant Vitamin C Serum</h4>
+                <span class="price">₹ 1,499</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                <img src="assets/night_cream.png" alt="Night Cream" class="product-image">
+                <h4>Midnight Glow Cream</h4>
+                <span class="price">₹ 1,899</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                <img src="assets/face_wash.png" alt="Face Wash" class="product-image">
+                <h4>Gentle Aqua Cleanse</h4>
+                <span class="price">₹ 899</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                <img src="assets/hero_serum.png" alt="Serum" class="product-image">
+                <h4>Radiance Serum</h4>
+                <span class="price">₹ 1,299</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                <img src="assets/moisturizer.png" alt="Moisturizer" class="product-image">
+                <h4>HydraGlow Moisturizer</h4>
+                <span class="price">₹ 1,099</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                <img src="assets/sunscreen.png" alt="Sunscreen" class="product-image">
+                <h4>Sunscreen Gel SPF 30</h4>
+                <span class="price">₹ 799</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                <img src="assets/lip_glow.png" alt="Lip" class="product-image">
+                <h4>Velvet Glow Lip</h4>
+                <span class="price">₹ 599</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="mid-promo" style="padding: 40px; margin-top: 0; border-radius: 0;">
+            <p>&copy; 2026 Aura Skin. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
