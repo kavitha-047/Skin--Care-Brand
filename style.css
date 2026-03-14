@@ -259,9 +259,26 @@ nav a:hover::after {
     box-shadow: var(--premium-shadow);
 }
 
+.product-grid-section {
+    padding: 80px 5%;
+}
+
+.product-grid-section .section-title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
 .product-card {
     background: var(--soft-beige);
-    padding: 24px;
+    padding: 30px 24px;
     border-radius: var(--border-radius);
     text-align: left;
     position: relative;
@@ -271,21 +288,56 @@ nav a:hover::after {
 
 .product-card:hover {
     background: var(--pure-white);
-    box-shadow: var(--premium-shadow);
-    transform: translateY(-5px);
-    border-color: var(--primary-lavender);
+    box-shadow: 0 30px 60px rgba(157, 132, 209, 0.15);
+    transform: translateY(-10px);
+    border-color: var(--accent-lavender);
 }
 
 .product-image {
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: contain;
     margin-bottom: 20px;
+    padding: 20px;
+    transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.product-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 24px;
+    display: block;
+}
+
+.add-to-cart {
+    width: 100%;
+    padding: 16px;
+    background: var(--text-dark);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
     transition: var(--transition);
 }
 
+@keyframes product-float-spin {
+    0% { transform: scale(1.1) translateY(0px) rotate(2deg); filter: drop-shadow(0 10px 15px rgba(157, 132, 209, 0.1)); }
+    50% { transform: scale(1.15) translateY(-15px) rotate(-3deg); filter: drop-shadow(0 25px 30px rgba(157, 132, 209, 0.3)); }
+    100% { transform: scale(1.1) translateY(0px) rotate(2deg); filter: drop-shadow(0 10px 15px rgba(157, 132, 209, 0.1)); }
+}
+
 .product-card:hover .product-image {
-    transform: scale(1.08) rotate(2deg);
+    animation: product-float-spin 3s ease-in-out infinite alternate;
 }
 
 .cta-button {
@@ -416,41 +468,6 @@ nav a:hover::after {
     cursor: pointer;
 }
 
-.product-image {
-    width: 100%;
-    height: 250px;
-    object-fit: contain;
-    margin-bottom: 20px;
-}
-
-.product-card h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.price {
-    font-weight: 700;
-    color: var(--accent-lavender);
-    margin-bottom: 20px;
-    display: block;
-}
-
-.add-to-cart {
-    width: 100%;
-    padding: 12px;
-    background: var(--text-dark);
-    color: white;
-    border: none;
-    border-radius: 12px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: var(--transition);
-}
-
-.add-to-cart:hover {
-    background: var(--accent-lavender);
-}
-
 /* Offer Banners */
 .offers-section {
     padding: 50px 5%;
@@ -532,11 +549,34 @@ nav a:hover::after {
     padding: 10px;
     transition: var(--transition);
     cursor: pointer;
+    position: relative;
+    background: var(--glass-bg);
+}
+
+@keyframes spin-border {
+    100% { transform: rotate(360deg); }
+}
+
+.collection-circle::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    background: conic-gradient(transparent, transparent, transparent, var(--accent-lavender), var(--primary-pink));
+    z-index: -1;
+    animation: spin-border 3s linear infinite;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.collection-circle:hover::before {
+    opacity: 1;
 }
 
 .collection-circle:hover {
-    border-width: 3px;
-    transform: scale(1.05);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(157, 132, 209, 0.2);
+    border-color: transparent;
 }
 
 .circle-inner {
@@ -544,12 +584,28 @@ nav a:hover::after {
     height: 100%;
     border-radius: 50%;
     overflow: hidden;
+    position: relative;
+    background: var(--pure-white);
+    z-index: 1; /* Keep above rotating border */
+}
+
+@keyframes slow-spin-img {
+    0% { transform: rotate(0deg) scale(1.05); }
+    50% { transform: rotate(180deg) scale(1.2); }
+    100% { transform: rotate(360deg) scale(1.05); }
 }
 
 .circle-inner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    animation: slow-spin-img 25s linear infinite;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.collection-circle:hover .circle-inner img {
+    animation-play-state: paused;
+    transform: scale(1.1) rotate(0deg);
 }
 
 /* Campaign Cards */
